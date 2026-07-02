@@ -1,0 +1,69 @@
+# ============================================================================
+# Team identity
+# ============================================================================
+team_name: "Alpha-AI-Discoverer"
+
+primary_contact:
+  name: "Software Engineer Student"
+  email: "student@engineering.res.in"
+  phone: "+91-9876543210"
+
+team_members:
+  - name: "Software Engineer Student"
+    email: "student@engineering.res.in"
+    role: "ML Engineer & Architecture Lead"
+
+# ============================================================================
+# Code and reproducibility
+# ============================================================================
+github_repo: "https://github.com/DRN-10/redrob-candidate-ranker"
+sandbox_link: "https://colab.research.google.com/drive/alpha-sandbox-placeholder"
+
+reproduce_command: "python ranker.py"
+
+# ============================================================================
+# Compute environment
+# ============================================================================
+compute:
+  platform: "Local CPU Environment"
+  cpu_cores: 8
+  ram_gb: 16
+  python_version: "3.11.5"
+  os: "Windows 11 / Linux Sandbox"
+  uses_gpu_for_inference: false
+  has_network_during_ranking: false
+  pre_computation_required: false
+  pre_computation_time_minutes: 0
+
+# ============================================================================
+# AI tools declaration
+# ============================================================================
+ai_tools_used:
+  - "Gemini"
+  - "GitHub Copilot"
+
+ai_usage_summary: |
+  Used Gemini for algorithmic strategy planning, sorting logic formulation, 
+  and structural deck outline construction. Used Copilot for basic code completion.
+  No candidate profile data was exposed to external APIs.
+
+# ============================================================================
+# Approach summary
+# ============================================================================
+methodology_summary: |
+  An optimized, deterministic rule-based ranking engine engineered for zero-network 
+  CPU environments. Features explicit cross-signal validation targeting heuristic 
+  traps and honeypots. Evaluates candidates using an multi-signal algorithm: 
+  explicit qualification mapping, progression velocity tracking, and a multiplicative 
+  behavioral signal modifier utilizing Redrob metrics like recruiter response rates 
+  to scale baseline fit scores. Fully handles impossible candidate profile anomalies.
+
+# ============================================================================
+# Declarations
+# ============================================================================
+declarations:
+  read_submission_spec: true
+  code_is_original_work: true
+  no_collusion: true
+  honeypot_check_done: true
+  reproduction_tested: true
